@@ -20,3 +20,4 @@ target = 30
 # attempting binary search on unsorted data
 result = binary_search(arr, target)
 print("\n\nResult index (on unsorted array):", result)
+print("\n\n")
