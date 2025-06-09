@@ -10,7 +10,7 @@ def josephus(n, k):
 
 # demonstrating limitation for large n
 try:
-    n = 100000  # large number of people
+    n = 100000000  # large number of people
     k = 2
     print("\n\nSafe position for large n:", josephus(n, k))
 

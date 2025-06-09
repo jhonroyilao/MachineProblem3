@@ -1,3 +1,5 @@
+import time 
+
 def russian_peasant(a, b):
     result = 0
     while b > 0:
@@ -8,9 +10,14 @@ def russian_peasant(a, b):
     return result
 
 # testing with negative number (limitation)
-a = -18
-b = 7
+a = 150
+b = -5
 try:
     print("\n\nResult:", russian_peasant(a, b))
 except Exception as e:
     print("\n\nError occurred:", e)
+
+
+start_time = time.time()
+end_time = time.time()
+print("\n\nTime taken:", end_time - start_time, "seconds\n\n\n")
