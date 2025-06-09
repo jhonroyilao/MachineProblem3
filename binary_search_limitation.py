@@ -12,8 +12,8 @@ def binary_search(arr, target):
             right = mid - 1
     return -1  # Target not found
 
-#SORTED array
-# arr = [3, 10, 20, 30, 35, 40, 50, 90]
+# SORTED array
+#arr = [3, 10, 20, 30, 35, 40, 50, 90]
 
 # UNSORTED array (to demonstrate limitation)
 arr = [40, 10, 3, 20, 50, 35,30, 90]
@@ -21,5 +21,5 @@ target = 30
 
 # attempting binary search on unsorted data
 result = binary_search(arr, target)
-print("\n\nResult index (on unsorted array):", result)
+print("\n\nResult index:", result)
 print("\n\n")

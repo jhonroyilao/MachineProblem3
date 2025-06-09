@@ -10,11 +10,15 @@ def insertion_sort(arr):
         arr[j + 1] = key
     return arr
 
-# large reverse sorted array
+# small array
+# arr = [40, 10, 3, 20, 50, 35,30, 90]
+
+# large reverse sorted array (worst case)
 arr = list(range(10000, 0, -1))
 
 start_time = time.time()
 insertion_sort(arr)
 end_time = time.time()
 
-print("\n\nTime taken to sort reverse sorted array of size 10,000:", end_time - start_time, "seconds\n\n\n")
+print("\n\nSorted array:", arr)
+print("\n\nTime taken:", end_time - start_time, "seconds\n\n\n")
