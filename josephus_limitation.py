@@ -16,4 +16,4 @@ try:
 
 
 except RecursionError:
-    print("RecursionError: Maximum recursion depth exceeded!")
+    print("\n\nRecursionError: Maximum recursion depth exceeded!\n\n\n")

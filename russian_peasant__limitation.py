@@ -3,7 +3,7 @@ import time
 def russian_peasant(a, b):
     result = 0
     while b > 0:
-        if b % 2 != 0:
+        if b % 2 != 0: # if b is odd
             result += a
         a = a * 2  # doubling the multiplicant
         b = b // 2 # halving  the other multplicant
